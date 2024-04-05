@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityRecuperar">
+
+    <EditText
+        android:id="@+id/TxtrecuperaEmail"
+        android:layout_width="316dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="128dp"
+        android:ems="10"
+        android:hint="Ingrese su correo electrónico"
+        android:inputType="textPersonName"
+        android:fontFamily="@font/source_code_pro_medium"
+        android:textColor="@color/iceberg"
+        android:textColorHint="@color/azulSuave"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnsendEmail"
+        android:layout_width="312dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="128dp"
+        android:padding="10dp"
+        android:text="Enviar petición"
+        android:background="@drawable/button"
+        android:fontFamily="@font/source_code_pro_semibold"
+        android:textColor="@color/blanco"
+        android:textSize="16sp"
+        app:backgroundTint="@color/naranja_hielo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TxtrecuperaEmail" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="179dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="256dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnsendEmail"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/logo_gimnasio_force" />
+</androidx.constraintlayout.widget.ConstraintLayout>

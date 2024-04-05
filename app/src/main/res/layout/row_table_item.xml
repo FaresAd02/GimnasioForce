@@ -1,0 +1,69 @@
+<!-- row_table_item.xml -->
+<!-- row_table_item.xml -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/text_view_column_1"
+        android:layout_width="80dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="4dp"
+    android:textSize="16sp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toStartOf="@+id/text_view_column_2"
+    app:layout_constraintWidth_default="wrap"
+    android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/text_view_column_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/text_view_column_1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/text_view_column_3"
+        app:layout_constraintWidth_default="wrap"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/text_view_column_3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/text_view_column_2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/text_view_column_4"
+        app:layout_constraintWidth_default="wrap"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/text_view_column_4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/text_view_column_3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_default="wrap"
+        android:gravity="center_vertical" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

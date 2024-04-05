@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- row_table_header.xml -->
+    <LinearLayout
+        android:id="@+id/header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="@color/gray"
+        tools:ignore="MissingConstraints"> <!-- Agregar color de fondo para distinguir el encabezado -->
+        <TextView
+            android:id="@+id/text_view_header_column_1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Fecha"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:background="@drawable/border_background" /> <!-- Utiliza un drawable para definir el borde -->
+ <!-- Alineación central para el texto -->
+
+        <TextView
+            android:id="@+id/text_view_header_column_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Metros"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:gravity="center" /> <!-- Alineación central para el texto -->
+
+        <TextView
+            android:id="@+id/text_view_header_column_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Calorias"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/text_view_header_column_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Pasos"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:gravity="center" /><!-- Alineación central para el texto -->
+
+        <!-- Agregar más TextViews según sea necesario para cada columna de tu tabla -->
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

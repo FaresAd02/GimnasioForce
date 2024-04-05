@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "70088915462",
+    "firebase_url": "https://gymforce-2ebcb-default-rtdb.firebaseio.com",
+    "project_id": "gymforce-2ebcb",
+    "storage_bucket": "gymforce-2ebcb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70088915462:android:66720804ecd4a97944a187",
+        "android_client_info": {
+          "package_name": "com.example.runnerapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBae2kPllKu2cxiOq4HUIv9jxmtdh3QuEI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
